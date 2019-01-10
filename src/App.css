@@ -1,0 +1,217 @@
+.header-color {
+   background-image: url("https://images.pexels.com/photos/1366881/pexels-photo-1366881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+.separator{
+    width:100%;
+    height: 2px;
+    background-color: white;
+
+}
+.landing-grid {
+    background-image: url("https://images.pexels.com/photos/1366881/pexels-photo-1366881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position-y: 7%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.projects-grid{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+}
+.background-projects-unity{
+    background-image: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position-y: 30%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -50;
+
+}
+.background-projects-java{
+    background-position-y: 70%;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/1325061/pexels-photo-1325061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    position: fixed;
+}
+.background-projects-react{
+    background-image: url("https://images.pexels.com/photos/287229/pexels-photo-287229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position-y: 40%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.background-projects-csharp{
+    background-image: url("https://images.pexels.com/photos/1323445/pexels-photo-1323445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position-y: 70%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+}
+.background-contact-page{
+    background-image: url("https://images.pexels.com/photos/1323445/pexels-photo-1323445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position-y: 70%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+}
+
+/* about me page */
+.about-me-right-col{
+    background: #27221f;
+    color: white;
+    width : 100%;
+    padding: 2em;
+}
+.circle{
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+.banner-text {
+    background-color: black;
+    opacity: .7;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+}
+.banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.banner-text hr{
+    border-top: 10px dotted white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.banner-text p{
+    color:white;
+    font-size: 20px;
+    padding: 1em;
+    text-align: center;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+
+}
+.social-links i{
+    color: gray;
+    font-size: 5em;
+    padding: 8px;
+    -webkit-transition: All 0.5s ease-in-out;
+
+}
+.social-links i:hover{
+    color: white;
+    width: 35%;
+    height: 35%;
+}
+.contact-body{
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    background-image: url("https://images.pexels.com/photos/900106/pexels-photo-900106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position-y: 50%;
+}
+.contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: black;
+    border: 2px solid red;
+}
+.circle-contact{
+    margin-top: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.contact-grid h2{
+    margin-top: 3em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.contact-grid p {
+    font-family: 'Orbiton', sans-serif;
+    font-weight: bold;
+    color:white
+}
+.contact-grid hr{
+    border-top: 5px dot-dash;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+.contact-list i{
+    font-size: 60px;
+    padding-right: .5em;
+    color: white;
+}
+.single-text{
+    margin-top: 1em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.single-text-black{
+    margin-top: 1em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.project-card{
+    min-width: 512px;
+    margin: auto;
+}
+.example-text{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.card-style{
+    margin: auto;
+    opacity: 0.5;
+}
+.card-style:hover{
+    opacity:1;
+    -webkit-transition: All 0.5s ease-in-out;
+
+
+}
+.card-style Card{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+.contact-leftSide{
+    margin-top: 8em;
+    transform: rotate(20deg);
+}
+.contact-rightSide{
+    margin-top: -23em;
+    transform: rotate(-20deg);
+}
